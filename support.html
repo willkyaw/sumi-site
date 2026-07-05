@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Sumi</title>
+<meta name="description" content="Get help with Sumi. Contact support by email and browse answers to common questions.">
+<link rel="icon" href="assets/icon.png">
+<style>
+  :root{
+    --paper:#F6F3EC; --card:#FFFDF8; --ink:#35302A; --ink-soft:#7D7468;
+    --line:#E8E1D3; --shu:#D9503F; --shu-deep:#BC4030; --pine:#4A7C59; --pine-tint:#E9F1EA; --shu-tint:#FBEBE6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Rounded","Segoe UI",system-ui,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;}
+  a{color:var(--shu-deep)}
+  .wrap{max-width:760px; margin:0 auto; padding:0 24px}
+  header.site{padding:22px 0; display:flex; align-items:center; justify-content:space-between; gap:16px; border-bottom:1.5px solid var(--line)}
+  .brand{display:flex; align-items:center; gap:12px; font-weight:800; font-size:20px; text-decoration:none; color:var(--ink)}
+  .brand img{width:40px; height:40px; border-radius:11px; box-shadow:0 2px 8px rgba(53,48,42,.12)}
+  nav.site a{color:var(--ink-soft); text-decoration:none; font-weight:600; font-size:15px; margin-left:20px}
+  nav.site a:hover{color:var(--shu-deep)}
+
+  .top{text-align:center; padding:30px 0 6px}
+  .top img.cat{width:130px; height:130px; object-fit:contain; filter:drop-shadow(0 8px 18px rgba(53,48,42,.16))}
+  h1{font-size:34px; margin:10px 0 6px; letter-spacing:-.4px}
+  .top p{color:var(--ink-soft); max-width:520px; margin:0 auto; font-size:17px}
+
+  .contact{background:var(--shu-tint); border:1.5px solid #F0D3CB; border-radius:20px; padding:24px; text-align:center; margin:26px 0}
+  .contact h2{margin:0 0 6px; font-size:22px}
+  .contact p{margin:0 0 16px; color:#7a4b41}
+  .btn{display:inline-flex; align-items:center; gap:8px; background:var(--shu); color:#fff; text-decoration:none;
+    font-weight:700; font-size:16px; padding:13px 26px; border-radius:999px; box-shadow:0 4px 14px rgba(217,80,63,.28); transition:transform .12s ease}
+  .btn:hover{transform:translateY(-1px)}
+  .email-plain{display:block; margin-top:12px; color:#7a4b41; font-size:15px}
+
+  h2{font-size:22px; margin:30px 0 14px; letter-spacing:-.2px}
+  details{background:var(--card); border:1.5px solid var(--line); border-radius:16px; padding:4px 20px; margin-bottom:12px}
+  summary{cursor:pointer; font-weight:700; font-size:16px; padding:14px 0; list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"＋"; float:right; color:var(--shu); font-weight:700}
+  details[open] summary::after{content:"－"}
+  details p{margin:0 0 16px; color:var(--ink-soft); font-size:15px}
+
+  footer.site{border-top:1.5px solid var(--line); margin-top:36px; padding:26px 0 44px; color:var(--ink-soft); font-size:14px; text-align:center}
+  footer.site a{color:var(--ink-soft); margin:0 10px; text-decoration:none; font-weight:600}
+  footer.site a:hover{color:var(--shu-deep)}
+  .kanji{font-weight:800; color:var(--shu)}
+  @media(max-width:640px){h1{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <a class="brand" href="index.html"><img src="assets/icon.png" alt="Sumi app icon"> Sumi</a>
+    <nav class="site">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <div class="top">
+    <img class="cat" src="assets/sumi-ledger.png" alt="Sumi the cat holding a ledger">
+    <h1>Support</h1>
+    <p>Stuck, confused, or found a bug? We’d love to help. A real person reads every message.</p>
+  </div>
+
+  <div class="contact">
+    <h2>Email us</h2>
+    <p>We usually reply within 2–3 business days.</p>
+    <a class="btn" href="mailto:tinalee1115@gmail.com?subject=Sumi%20support%20request">Contact support</a>
+    <span class="email-plain">or write to <a href="mailto:tinalee1115@gmail.com?subject=Sumi%20support%20request">tinalee1115@gmail.com</a></span>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <details>
+    <summary>Which countries does Sumi support?</summary>
+    <p>Sumi currently covers Japan (民泊 / minpaku), France, and Korea, including night caps, licence steps, and — for Japan — many municipal ordinances. You pick your country during onboarding and can change it later in the Account tab.</p>
+  </details>
+
+  <details>
+    <summary>Where is my data stored? Do you have my information?</summary>
+    <p>Everything you enter stays on your device. Sumi has no servers and no accounts, so we never receive your data. See our <a href="privacy.html">Privacy Policy</a> for the full details.</p>
+  </details>
+
+  <details>
+    <summary>How do I export or delete my data?</summary>
+    <p>Open the <strong>Account</strong> tab. From there you can export your data as a file, delete your profile, or erase everything. Deleting the app from your iPhone also removes all stored data.</p>
+  </details>
+
+  <details>
+    <summary>How does the “Ask Sumi” AI helper work?</summary>
+    <p>It’s an optional chat that sends your question to our AI provider (Anthropic) to generate an answer. It’s off unless you open it. If you never use it, nothing leaves your device.</p>
+  </details>
+
+  <details>
+    <summary>Can I import my bookings?</summary>
+    <p>Yes. In the Dates section you can paste an iCal calendar link from Airbnb or Booking.com, and Sumi will read your stay dates directly from that calendar.</p>
+  </details>
+
+  <details>
+    <summary>Is Sumi legal advice?</summary>
+    <p>No. Sumi offers general guidance to help you understand the rules, but requirements change and vary by location. Always confirm with your local authority before acting.</p>
+  </details>
+
+  <footer class="site">
+    <div style="margin-bottom:10px">
+      <a href="index.html">Home</a> ·
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="support.html">Support</a>
+    </div>
+    <div><span class="kanji">墨</span> &nbsp;© 2026 Sumi</div>
+  </footer>
+
+</div>
+</body>
+</html>
